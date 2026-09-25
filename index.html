@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#65000d">
+<title>XII Jornada Acadêmica de Física Médica — UFCSPA</title>
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{--wine:#65000d;--wine2:#870a18;--gold:#c18b2c;--cream:#fbf7ec;--ink:#2b2220;--muted:#746965;--card:#fff;--line:#eadfca}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--cream);color:var(--ink)}
+.app{max-width:760px;margin:auto;min-height:100vh;padding-bottom:86px}
+.hero{background:linear-gradient(145deg,#5d000b 0%,#810a17 62%,#a36719 160%);color:white;padding:26px 20px 30px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:240px;height:240px;border:1px solid #d8ad58;border-radius:50%;right:-135px;top:-55px;box-shadow:0 0 0 26px rgba(216,173,88,.12),0 0 0 52px rgba(216,173,88,.07)}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#f0cf8e;font-weight:800}.roman{font-size:66px;line-height:.9;font-weight:900;letter-spacing:-.06em;margin:10px 0 4px}.title{font-size:25px;line-height:1.05;font-weight:850;max-width:390px}.tag{margin-top:12px;color:#f3dba9;font-weight:650}.date{margin-top:18px;display:inline-flex;gap:9px;align-items:center;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);padding:9px 12px;border-radius:999px;font-size:13px}
+.section{padding:18px 16px 0}.section h2{font-size:17px;margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.tile{background:var(--card);border:1px solid #eee5d7;border-radius:18px;padding:14px 8px 12px;text-align:center;min-height:108px;box-shadow:0 5px 18px rgba(75,34,21,.05);cursor:pointer}
+.icon{width:48px;height:48px;border-radius:50%;background:#f7ecdc;color:var(--wine);display:grid;place-items:center;margin:auto auto 8px;font-size:23px}.tile b{font-size:12px;display:block}
+.notice{background:#fff8e9;border:1px solid #ead3a6;border-radius:15px;padding:12px 14px;font-size:12px;color:#6e5425;margin-top:14px}
+.tabs{display:flex;gap:7px;overflow:auto;padding-bottom:3px}.tab{border:1px solid var(--line);background:white;border-radius:999px;padding:8px 12px;white-space:nowrap;font-size:12px;font-weight:750;cursor:pointer}.tab.active{background:var(--wine);color:white;border-color:var(--wine)}
+.events{display:grid;gap:9px;margin-top:12px}.event{display:grid;grid-template-columns:78px 1fr auto;gap:10px;align-items:center;background:white;border:1px solid #eee5d7;border-radius:14px;padding:11px 12px}.time{font-size:12px;font-weight:850;color:var(--wine)}.event b{font-size:13px}.event small{display:block;color:var(--muted);margin-top:3px}.star{border:0;background:#f8efe1;width:34px;height:34px;border-radius:50%;font-size:18px;cursor:pointer}.star.on{background:#e5c174}
+.bottom{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:min(760px,100%);height:70px;background:rgba(255,255,255,.97);border-top:1px solid #eadfca;display:grid;grid-template-columns:repeat(4,1fr);z-index:10;padding-bottom:env(safe-area-inset-bottom)}
+.nav{display:grid;place-items:center;align-content:center;gap:2px;font-size:10px;color:#766b67}.nav span{font-size:21px}.nav.active{color:var(--wine);font-weight:800}
+.page{display:none}.page.active{display:block}.back{border:0;background:transparent;color:white;font-size:23px;padding:0;margin-bottom:10px}.subhero{background:var(--wine);color:white;padding:20px 18px}.subhero h1{font-size:23px;margin:4px 0}.cards{display:grid;gap:10px;padding:16px}.person,.work{background:white;border:1px solid #eee5d7;border-radius:16px;padding:14px}.person .avatar{width:46px;height:46px;border-radius:50%;background:#f4e5d0;color:var(--wine);display:grid;place-items:center;font-weight:900;float:left;margin-right:12px}.person h3,.work h3{font-size:14px;margin:2px 0 4px}.person p,.work p{font-size:12px;color:var(--muted);margin:0}.badge{display:inline-block;margin-top:8px;padding:4px 8px;border-radius:999px;background:#f6ead7;color:#7a4e10;font-size:10px;font-weight:800}.search{width:100%;padding:12px 14px;border-radius:13px;border:1px solid #ddcfba;background:white;font-size:14px;margin-bottom:12px}
+.footer-note{padding:18px;color:#7c716d;font-size:11px;text-align:center}
+@media(max-width:390px){.roman{font-size:58px}.title{font-size:22px}.grid{gap:8px}.tile{min-height:103px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <main id="home" class="page active">
+    <header class="hero">
+      <div class="eyebrow">UFCSPA • 2026</div>
+      <div class="roman">XII</div>
+      <div class="title">Jornada Acadêmica<br>de Física Médica</div>
+      <div class="tag">Múltiplas fronteiras. Um propósito.</div>
+      <div class="date">📅 4, 5 e 6 de novembro de 2026 • Porto Alegre</div>
+    </header>
+    <section class="section">
+      <h2>Explore a Jornada</h2>
+      <div class="grid">
+        <div class="tile" onclick="showPage('program')"><div class="icon">▤</div><b>Programação</b></div>
+        <div class="tile" onclick="showPage('agenda')"><div class="icon">★</div><b>Minha agenda</b></div>
+        <div class="tile" onclick="showPage('speakers')"><div class="icon">🎙</div><b>Convidados</b></div>
+        <div class="tile" onclick="showPage('courses')"><div class="icon">⚛</div><b>Minicursos</b></div>
+        <div class="tile" onclick="showPage('works')"><div class="icon">▣</div><b>Trabalhos</b></div>
+        <div class="tile" onclick="showPage('rounds')"><div class="icon">◎</div><b>Rodas de conversa</b></div>
+        <div class="tile" onclick="showPage('venue')"><div class="icon">⌖</div><b>Local</b></div>
+        <div class="tile" onclick="showPage('support')"><div class="icon">◇</div><b>Apoiadores</b></div>
+        <div class="tile" onclick="showPage('about')"><div class="icon">i</div><b>Sobre</b></div>
+      </div>
+      <div class="notice"><b>Protótipo funcional.</b> A programação ainda está em organização; itens provisórios podem ser atualizados pela comissão.</div>
+    </section>
+    <section class="section">
+      <h2>Próximos destaques</h2>
+      <div class="events">
+        <div class="event"><div class="time">04 NOV<br>08:30</div><div><b>Credenciamento</b><small>Dia 1 • Quarta-feira</small></div><button class="star" data-id="cred4" onclick="fav(this)">☆</button></div>
+        <div class="event"><div class="time">04 NOV<br>09:00</div><div><b>Minicurso</b><small>Programação da manhã</small></div><button class="star" data-id="mini4" onclick="fav(this)">☆</button></div>
+        <div class="event"><div class="time">04 NOV<br>16:50</div><div><b>Roda de Conversa 1</b><small>Três Grandes Áreas da Física Médica</small></div><button class="star" data-id="roda1" onclick="fav(this)">☆</button></div>
+      </div>
+    </section>
+  </main>
+
+  <main id="program" class="page">
+    <div class="subhero"><button class="back" onclick="showPage('home')">‹</button><div class="eyebrow">4–6 NOV 2026</div><h1>Programação</h1></div>
+    <section class="section">
+      <div class="tabs"><button class="tab active" onclick="day(0,this)">QUA • 04</button><button class="tab" onclick="day(1,this)">QUI • 05</button><button class="tab" onclick="day(2,this)">SEX • 06</button></div>
+      <div id="dayEvents" class="events"></div>
+    </section>
+  </main>
+
+  <main id="agenda" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Minha agenda</h1></div><div class="cards" id="favList"></div></main>
+
+  <main id="speakers" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Convidados</h1></div><div class="cards">
+    <input class="search" placeholder="Buscar convidado ou instituição…" oninput="filterCards(this,'speakerCard')">
+    <div class="person speakerCard"><div class="avatar">AB</div><h3>Alexandre Bacelar</h3><p>HCPA • Gestão</p><span class="badge">Confirmado</span></div>
+    <div class="person speakerCard"><div class="avatar">WM</div><h3>Walter Mendes Ferreira</h3><p>CNEN • Proteção Radiológica</p><span class="badge">Confirmado</span></div>
+    <div class="person speakerCard"><div class="avatar">BC</div><h3>Brenda Candeia</h3><p>Ressonância Magnética</p><span class="badge">Programação preliminar</span></div>
+    <div class="person speakerCard"><div class="avatar">HF</div><h3>Henrique Fonteles</h3><p>Protonterapia</p><span class="badge">Programação preliminar</span></div>
+  </div></main>
+
+  <main id="courses" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Minicursos</h1></div><div class="cards">
+    <div class="work"><h3>Planejamento em Radioterapia</h3><p>Proposta longitudinal • 3 manhãs • 09h00–11h30</p><span class="badge">Em organização</span></div>
+    <div class="work"><h3>Introdução à Plataforma Arduino</h3><p>Coleta e análise de dados biológicos com sensores e circuitos • Laboratório 413 FM • 12 vagas previstas</p></div>
+    <div class="work"><h3>Radioproteção Aplicada à Medicina Nuclear</h3><p>Alexandre Ferret • GHC</p><span class="badge">Confirmado na planilha</span></div>
+    <div class="work"><h3>Ressonância Magnética</h3><p>Victória Fleming • Santa Casa</p><span class="badge">Confirmado na planilha</span></div>
+  </div></main>
+
+  <main id="rounds" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Rodas de conversa</h1></div><div class="cards">
+    <div class="work"><h3>Roda 1 — Três Grandes Áreas da FM</h3><p>Troca de experiências entre diferentes campos de atuação da Física Médica.</p></div>
+    <div class="work"><h3>Roda 2 — Pesquisa em Física Médica</h3><p>Formação científica, pós-graduação e caminhos de pesquisa.</p></div>
+    <div class="work"><h3>Roda 3 — Empreendedorismo & Inovação</h3><p>Carreira, inovação e novas possibilidades profissionais.</p></div>
+  </div></main>
+
+  <main id="works" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Trabalhos</h1></div><div class="cards">
+    <input class="search" placeholder="Buscar título, autor ou área…">
+    <div class="work"><h3>Submissões de trabalhos científicos</h3><p>Esta área exibirá título, autores, orientador, instituição, área, sessão e horário de cada apresentação assim que a relação final for publicada.</p><span class="badge">Em breve</span></div>
+  </div></main>
+
+  <main id="venue" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Local</h1></div><div class="cards"><div class="work"><h3>UFCSPA • Porto Alegre</h3><p>Os ambientes e salas de cada atividade serão incluídos quando a distribuição final estiver definida.</p></div></div></main>
+  <main id="support" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Apoiadores</h1></div><div class="cards"><div class="work"><h3>Espaço para parceiros da Jornada</h3><p>Logotipos e links serão publicados apenas após confirmação oficial pela organização.</p></div></div></main>
+  <main id="about" class="page"><div class="subhero"><button class="back" onclick="showPage('home')">‹</button><h1>Sobre a Jornada</h1></div><div class="cards"><div class="work"><h3>XII Jornada Acadêmica de Física Médica</h3><p>UFCSPA • 4, 5 e 6 de novembro de 2026</p><p style="margin-top:8px">“Múltiplas fronteiras. Um propósito.”</p></div></div></main>
+
+  <div class="footer-note">Protótipo • XII Jornada Acadêmica de Física Médica — UFCSPA</div>
+</div>
+
+<nav class="bottom">
+  <div class="nav active" onclick="showPage('home')"><span>⌂</span>Início</div>
+  <div class="nav" onclick="showPage('program')"><span>⌕</span>Programação</div>
+  <div class="nav" onclick="showPage('agenda')"><span>♡</span>Favoritos</div>
+  <div class="nav" onclick="showPage('about')"><span>☰</span>Menu</div>
+</nav>
+
+<script>
+const schedule=[
+ [["08h30–09h00","Credenciamento"],["09h00–09h15","Abertura manhã"],["09h00–11h30","Minicurso"],["12h00–13h00","Almoço"],["13h00–13h30","Abertura + Patrocinadores"],["13h50–14h40","Alexandre Bacelar"],["14h45–15h15","Coffee Break"],["15h15–15h45","Apresentações IC"],["15h50–16h40","Henrique"],["16h40–16h50","Intervalo"],["16h50–18h00","Roda de Conversa 1"],["18h40–19h40","Apresentações IC"]],
+ [["08h30–09h00","Credenciamento"],["09h00–09h15","Abertura manhã"],["09h00–11h30","Minicurso"],["12h00–13h00","Almoço"],["13h00–13h30","Abertura + Patrocinadores"],["13h50–14h40","Brenda"],["14h45–15h15","Coffee Break"],["15h15–15h45","Apresentações IC"],["15h50–16h40","Walter Mendes"],["16h40–16h50","Intervalo"],["16h50–18h00","Roda de Conversa 2"],["18h40–19h40","Apresentações IC"]],
+ [["08h30–09h00","Credenciamento"],["09h00–09h15","Abertura manhã"],["09h00–11h30","Minicurso"],["12h00–13h00","Almoço"],["13h00–13h30","Abertura + Patrocinadores"],["13h50–14h40","Elekta / Cristina"],["14h45–15h15","Coffee Break"],["15h15–15h45","Apresentações IC"],["15h50–16h40","Elekta / Cristina"],["16h40–16h50","Intervalo"],["16h50–18h00","Roda de Conversa 3"],["18h40–19h40","Encerramento + Premiação"],["19h45","Cerimônia de Premiação 🏆"]]
+];
+function showPage(id){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');window.scrollTo(0,0);if(id==='program')day(0,document.querySelector('.tab'));if(id==='agenda')renderFavs()}
+function day(n,btn){document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active')); if(btn)btn.classList.add('active'); let d=document.getElementById('dayEvents');d.innerHTML=schedule[n].map((e,i)=>`<div class="event"><div class="time">${e[0]}</div><div><b>${e[1]}</b><small>Programação preliminar</small></div><button class="star ${isFav('d'+n+i)?'on':''}" data-id="d${n}${i}" data-label="${e[0]} • ${e[1].replace(/"/g,'')}" onclick="fav(this)">${isFav('d'+n+i)?'★':'☆'}</button></div>`).join('')}
+function fav(b){let f=JSON.parse(localStorage.getItem('jfmFav')||'{}'); if(f[b.dataset.id])delete f[b.dataset.id];else f[b.dataset.id]=b.dataset.label||b.closest('.event').innerText.replace('☆','').trim();localStorage.setItem('jfmFav',JSON.stringify(f));b.classList.toggle('on');b.textContent=b.classList.contains('on')?'★':'☆'}
+function isFav(id){return !!JSON.parse(localStorage.getItem('jfmFav')||'{}')[id]}
+function renderFavs(){let f=JSON.parse(localStorage.getItem('jfmFav')||'{}'), el=document.getElementById('favList'), vals=Object.values(f);el.innerHTML=vals.length?vals.map(x=>`<div class="work"><h3>★ ${x}</h3><p>Salvo neste dispositivo.</p></div>`).join(''):`<div class="work"><h3>Sua agenda está vazia</h3><p>Toque na estrela de uma atividade para adicioná-la aqui.</p></div>`}
+function filterCards(inp,cls){let q=inp.value.toLowerCase();document.querySelectorAll('.'+cls).forEach(c=>c.style.display=c.innerText.toLowerCase().includes(q)?'block':'none')}
+if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+</script>
+</body></html>

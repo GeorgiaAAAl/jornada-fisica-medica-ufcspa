@@ -1,0 +1,9 @@
+{
+  "name": "XII Jornada Acadêmica de Física Médica — UFCSPA",
+  "short_name": "Jornada FM",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fbf7ec",
+  "theme_color": "#65000d",
+  "description": "Aplicativo da XII Jornada Acadêmica de Física Médica da UFCSPA"
+}
